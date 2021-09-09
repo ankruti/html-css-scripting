@@ -59,4 +59,8 @@ The sessionStorage object stores the data for one session. The data is deleted w
 sessionStorage.blogName=”OnlineInterviewQuestions”;
 document.write(sessionStorage.name);
 ```
-https://medium.com/@dineshmarathe2/html5-css3-interview-questions-answers-e729a37aa33c
+### 5. Explain the table layout properties
+* **auto:** the default. The browser’s automatic algorithm is used to define how a table’s rows, cells, and columns are laid out. The resulting table layout is generally dependent on the content of the table.
+* **fixed:** With this value, the table’s layout ignores the content and instead uses the table’s width, any specified width of columns, and border and cell spacing values. The column values used are based on widths defined on columns or cells for the first row of the table.
+* **fixed:** the table has a <colgroup> element whose first <col> element has a width of 400px. Notice in this case, toggling table-layout: fixed has no effect.
+* **fixed:** the same thing is happening; the first column is set at 400px then the remaining columns are divided equally. But this time, because one of the columns has extra content, the difference is noticeable.
